@@ -17,5 +17,11 @@ struct Node {
     Node* me;    // Trỏ lên node của mẹ 
     Node* next;  // Trỏ sang người tiếp theo
 };
-
+      //  Cẩm Đào
 Node* taoNode(int id, string hoTen, int namSinh, int namMat, string voChong);
+Node* timCuTo();
+void timAnhChiEm(Node* node);
+void timConCai(Node* node);
+void hienThiDanhSach();
+Node* timNodeTheoID(int id);
+void menuConsole();
